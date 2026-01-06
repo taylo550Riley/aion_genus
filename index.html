@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Genus Calculator</title>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Genus Level Calculator</h1>
+
+  <label>Genus Level:
+    <input type="number" id="level" min="1" max="9">
+  </label><br><br>
+
+  <label>Current XP:
+    <input type="number" id="xp">
+  </label><br><br>
+
+  <label>Locked Slots:
+    <input type="number" id="locks" min="0" max="8">
+  </label><br><br>
+
+  <button onclick="calculate()">Calculate</button>
+
+  <pre id="output"></pre>
+</body>
+</html>
