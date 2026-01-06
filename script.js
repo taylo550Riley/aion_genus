@@ -48,3 +48,12 @@ Kinah per roll: ${kinahPerRoll}
 TOTAL CRYSTALS: ${crystalsPerRoll * rolls}
 TOTAL KINAH: ${kinahPerRoll * rolls}`;
 }
+
+function resetForm() {
+  document.getElementById("level").value = "";
+  document.getElementById("xp").value = "";
+  document.getElementById("locks").value = "";
+
+  document.getElementById("output").innerText = "";
+}
+
