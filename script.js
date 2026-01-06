@@ -11,14 +11,14 @@ function calculate() {
   const CRYSTAL_LOCK = [5,5,20,45,95,95,95,95];
   const KINAH_LOCK = [1000,1000,4000,9000,19000,19000,19000,19000];
 
-  if (level >= 9) {
-    document.getElementById("output").innerText = "Max level reached.";
+  if (level > 9) {
+    document.getElementById("output").innerText = "max level reached.";
     return;
   }
 
   const usableSlots = Math.min(level, 9);
   if (locks >= usableSlots) {
-    document.getElementById("output").innerText = "Invalid lock count.";
+    document.getElementById("output").innerText = "invalid lock count.";
     return;
   }
 
@@ -56,4 +56,5 @@ function resetForm() {
 
   document.getElementById("output").innerText = "";
 }
+
 
