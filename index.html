@@ -4,26 +4,33 @@
   <meta charset="UTF-8">
   <title>Genus Calculator</title>
   <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Genus Level Calculator</h1>
+  <div class="container">
+    <h1>Genus Level Calculator</h1>
 
-  <label>Genus Level:
-    <input type="number" id="level" min="1" max="9">
-  </label><br><br>
+    <label>
+      Genus Level
+      <input type="number" id="level" min="1" max="9">
+    </label>
 
-  <label>Current XP:
-    <input type="number" id="xp">
-  </label><br><br>
+    <label>
+      Current XP
+      <input type="number" id="xp">
+    </label>
 
-  <label>Locked Slots:
-    <input type="number" id="locks" min="0" max="8">
-  </label><br><br>
+    <label>
+      Locked Slots
+      <input type="number" id="locks" min="0" max="8">
+    </label>
 
-  <button onclick="calculate()">Calculate</button>
-  <button onclick="resetForm()">Reset</button>
+    <div class="buttons">
+      <button type="button" onclick="calculate()">Calculate</button>
+      <button type="button" onclick="resetForm()">Reset</button>
+    </div>
 
-  <pre id="output"></pre>
+    <pre id="output"></pre>
+  </div>
 </body>
 </html>
-
