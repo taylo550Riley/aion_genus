@@ -14,7 +14,6 @@ body {
   min-height: 100vh;
 }
 
-/* Container */
 .container {
   background-color: #1e1e1e;
   padding: 24px 28px;
@@ -24,7 +23,6 @@ body {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
 }
 
-/* Headings */
 h1 {
   margin-top: 0;
   text-align: center;
@@ -32,7 +30,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Inputs */
 label {
   display: block;
   margin-bottom: 14px;
@@ -54,7 +51,6 @@ input:focus {
   border-color: #4f9cff;
 }
 
-/* Buttons */
 .buttons {
   display: flex;
   gap: 10px;
@@ -85,7 +81,6 @@ button:last-child:hover {
   background-color: #444;
 }
 
-/* Output */
 pre {
   margin-top: 18px;
   padding: 14px;
@@ -94,4 +89,11 @@ pre {
   border: 1px solid #333;
   font-size: 0.85rem;
   white-space: pre-wrap;
+}
+
+.footer {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #777;
 }
