@@ -71,6 +71,7 @@ kinah_per_roll = base_kinah + extra_kinah
 total_crystals = crystals_per_roll * rolls_needed
 total_kinah = kinah_per_roll * rolls_needed
 
+print(f"\n===== GENUS LEVEL-UP COST SUMMARY =====")
 print(f"Current Level: {genus_level}")
 print(f"XP Needed: {xp_needed}")
 print(f"Usable Slots: {usable_slots}")
@@ -84,3 +85,4 @@ print("--------------------------------------")
 print(f"TOTAL Crystals Needed: {total_crystals}")
 print(f"TOTAL Kinah Needed: {total_kinah}")
 print("======================================")
+
