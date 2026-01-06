@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  background-color: #1e1e1e;
+  padding: 24px 28px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Headings */
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+label {
+  display: block;
+  margin-bottom: 14px;
+  font-size: 0.9rem;
+}
+
+input {
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4f9cff;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4f9cff;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6aaeff;
+}
+
+button:last-child {
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+button:last-child:hover {
+  background-color: #444;
+}
+
+/* Output */
+pre {
+  margin-top: 18px;
+  padding: 14px;
+  border-radius: 6px;
+  background-color: #121212;
+  border: 1px solid #333;
+  font-size: 0.85rem;
+  white-space: pre-wrap;
+}
