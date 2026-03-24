@@ -43,7 +43,7 @@ genus_level = int(input("Enter current genus level (1–9): "))
 current_xp = int(input("Enter current experience in this level: "))
 locked_slots = int(input("Enter number of locked slots: "))
 
-if genus_level > 9:
+if genus_level <= 0 or genus_level > 9:
     print("invalid genus level.")
     exit()
 
